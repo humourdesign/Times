@@ -1,0 +1,280 @@
+/*-----------------------------------------------------------*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(https://drive.google.com/uc?id=17vHYYVtRj8hVsqZVGz1oOtEVlNG-N28o);
+	background-size: cover; 
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.menu-bar
+{
+	background: rgb(0,100,0);
+	text-align: center;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+
+.menu-bar ul li{
+	width: 140px;
+	margin: 15px;
+	padding: 15px;
+}
+
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+	background: #2bab0d;
+	border-radius: 3px;
+}
+
+.menu-bar .fa{
+	margin: 8px;
+}
+
+.sub-menu-1{
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #b2ff00;
+}
+
+.fa-angle-right{
+	float: right;
+}
+
+.sub-menu-2{
+	display: none;
+}
+
+.hover-me:hover .sub-menu-2{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: rgb(0,100,0);
+}
+
+/*---------------------------------------------------------------*/
+
+
+.section-1 h1{
+	height: 200%;
+	width: 100%;
+	font-size: 400%;
+	color: #2209ac;
+	background: #8dcc66;
+	background-position: center;
+	font-family: italic sans-serif;
+	text-align: center;
+}
+
+.section-1 p{
+	height: 100%;
+	width: 100%;
+	font-size: 200%;
+	color: #4b3ba6;
+	background: #b3ec8f;
+	background-position: center;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.container-img img{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.section-2 h2{
+	color: #500559;
+	background: #08653e;
+	text-align: center;
+}
+
+.section-2 details{
+	color: #6c1776;
+	background: #11c378;
+	text-align: center;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3{
+	text-align: center;
+	font-size: 200%;
+	color: #3e044c;
+
+}
+
+.message-1 p{
+	font-style: italic;
+	font-size: 150%;
+	color: #f2f2f2;
+	background: #400c56;
+	opacity: 0.5;
+	font-weight: bold;
+}
+
+.message-2 p{
+	font-style: italic;
+	font-size: 150%;
+	color: #f2f2f2;
+	background: #400c56;
+	opacity: 0.5;
+	font-weight: bold;
+}
+
+.message-3 p{
+	font-style: italic;
+	font-size: 150%;
+	color: #f2f2f2;
+	background: #400c56;
+	opacity: 0.5;
+	font-weight: bold;
+}
+
+/*.container-img img{
+	width: 10%;
+	height: 10%;
+	align-items: center;
+}*/
+
+/*nav{
+	background: #594848;
+	width: 100%;
+	overflow: auto;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li{
+	float: left;
+}
+
+nav a{
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: #594848;
+	font-size: 17px;
+	color: white;
+	padding: 20px 10px;
+	font-family: Arial;
+}
+
+nav a:hover{
+	background: skyblue;
+	color: black;
+}*/
+
+img{
+	width: 30%;
+	height:400px;
+}
+
+
+header{
+	background: #666666;
+	text-align: center;
+}
+
+.container{
+	max-width: 1300px;
+	margin: auto;
+	background: #f2f2f2;
+	overflow: auto;
+}
+
+.gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width:390px;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+.desc{
+	padding:15px;
+	text-align: center;
+}
+
+.section-3 h2{
+	color: #93bdb1;
+	background: #500524;
+	text-align: center;
+}
+
+.section-3 details{
+	color: #93bdb1;
+	background: #921d38;
+	text-align: center;
+}
+
+footer{
+	padding: 10px;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	background: #04ef04;
+	color: white;
+	font-family: Arial;
+	letter-spacing: 1px;
+}
